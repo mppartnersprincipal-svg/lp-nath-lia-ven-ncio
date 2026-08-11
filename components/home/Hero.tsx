@@ -9,8 +9,7 @@ export function Hero() {
       <Container className="grid items-center gap-12 py-section lg:grid-cols-[1.1fr_0.9fr]">
         <div>
           <h1 className="text-hero text-creme-100">
-            Advocacia próxima, clara e responsável, em Goiânia e em todo o
-            Brasil
+            Antes de falar de processo, a gente escuta a sua história
           </h1>
           <p className="mt-6 text-lead text-on-dark-muted">
             Enfrentar um problema jurídico já é difícil. Entender o que está

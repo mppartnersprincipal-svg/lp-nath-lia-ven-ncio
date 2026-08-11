@@ -43,7 +43,7 @@ og:description: Atuação em Direito do Consumidor, Bancário, Cível e da Saúd
 og:type: website · og:image: foto/branding do Design System
 H1
 
-Advocacia próxima, clara e responsável, em Goiânia e em todo o Brasil
+Antes de falar de processo, a gente escuta a sua história
 
 Hero (subtítulo + CTAs)
 
