@@ -6,8 +6,9 @@ basta substituir os arquivos em `/public` mantendo os mesmos nomes).
 
 ## Logo
 
-- [ ] **Logo em PNG com fundo transparente** — hoje só existe JPEG e PNG sobre
-      fundo verde (`/public/logo/`). Em fundos claros não há versão utilizável.
+- [x] **Logo em PNG com fundo transparente** — gerado por
+      `scripts/make-logo-transparent.mjs` a partir de `logo-fundo-verde.png`
+      (`logo-header.png` completo + `logo-v.png` só com o monograma).
 - [ ] **Versão horizontal do logotipo** — para header compacto e footer.
 - [ ] (Ideal) **Arquivo vetorial (SVG/AI/PDF)** — favicon e impressões em
       qualquer escala sem perda.
