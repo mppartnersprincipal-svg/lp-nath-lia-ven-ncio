@@ -27,16 +27,21 @@ function persist(value: "accepted" | "rejected") {
   listeners.forEach((l) => l());
 }
 
+// Estado do consentimento para outros componentes (ex.: WhatsAppFloat se
+// esconde enquanto o banner está aberto, para não ficar coberto por ele).
+export function useCookieConsent() {
+  const stored = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
+  return stored === "server"
+    ? null
+    : stored === "accepted" || stored === "rejected"
+      ? stored
+      : "pending";
+}
+
 // Banner de consentimento LGPD. O GA4 só é carregado após o aceite —
 // nenhum cookie de estatística é criado antes disso.
 export function CookieConsent() {
-  const stored = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
-  const consent =
-    stored === "server"
-      ? null
-      : stored === "accepted" || stored === "rejected"
-        ? stored
-        : "pending";
+  const consent = useCookieConsent();
 
   // Evento whatsapp_click: listener global em links wa.me (só com GA ativo).
   useEffect(() => {
@@ -82,7 +87,7 @@ export function CookieConsent() {
         <div
           role="region"
           aria-label="Consentimento de cookies"
-          className="fixed inset-x-0 bottom-0 z-50 border-t border-line-gold bg-dark"
+          className="sticky bottom-0 z-40 w-full border-t border-line-gold bg-dark"
         >
           <div className="mx-auto flex w-full max-w-site flex-col gap-4 px-4 py-5 md:flex-row md:items-center md:justify-between md:px-6">
             <p className="text-small text-on-dark-muted">

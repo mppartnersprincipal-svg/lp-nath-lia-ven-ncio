@@ -223,7 +223,7 @@ export function ContactForm() {
               name="consentimento"
               type="checkbox"
               required
-              className="mt-1 size-5 shrink-0 accent-(--color-accent-strong)"
+              className="mt-0.5 size-6 shrink-0 accent-(--color-accent-strong)"
               {...invalid("consentimento")}
             />
             <label htmlFor="consentimento" className="text-small text-foreground">

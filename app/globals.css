@@ -54,13 +54,13 @@
   --leading-display: 1.08;
   --leading-body: 1.65;
 
-  --text-hero: clamp(44px, 5.5vw, 72px);
+  --text-hero: clamp(36px, 3.4vw + 24px, 72px);
   --text-hero--line-height: var(--leading-display);
-  --text-h1: 48px;
+  --text-h1: clamp(30px, 2.6vw + 21px, 48px);
   --text-h1--line-height: var(--leading-display);
-  --text-h2: 36px;
+  --text-h2: clamp(26px, 1.4vw + 21px, 36px);
   --text-h2--line-height: var(--leading-display);
-  --text-h3: 26px;
+  --text-h3: clamp(22px, 0.6vw + 20px, 26px);
   --text-h3--line-height: var(--leading-display);
   --text-lead: 20px;
   --text-lead--line-height: var(--leading-body);

@@ -1,8 +1,15 @@
+"use client";
+
 import { waLink } from "@/lib/whatsapp";
 import { WhatsAppIcon } from "@/components/shared/WhatsAppIcon";
+import { useCookieConsent } from "@/components/shared/CookieConsent";
 
-// Botão flutuante fixo — alvo de toque 56px (≥ 44px).
+// Botão flutuante fixo — alvo de toque 56px (≥ 44px). Fica oculto enquanto
+// o banner de cookies está aberto, para não ser coberto por ele.
 export function WhatsAppFloat() {
+  const consent = useCookieConsent();
+  if (consent === "pending") return null;
+
   return (
     <a
       href={waLink()}

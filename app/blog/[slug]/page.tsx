@@ -95,12 +95,12 @@ export default async function PostPage({ params }: PageProps<"/blog/[slug]">) {
             className="mt-8 rounded-card border border-line bg-card p-6 shadow-card"
           >
             <p className="text-eyebrow uppercase text-verde-700">Sumário</p>
-            <ol className="mt-4 space-y-2">
+            <ol className="mt-2">
               {sumario.map((h2) => (
                 <li key={h2.id}>
                   <a
                     href={`#${h2.id}`}
-                    className="text-foreground transition-colors duration-200 hover:text-verde-700"
+                    className="flex min-h-11 items-center py-2 text-foreground transition-colors duration-200 hover:text-verde-700"
                   >
                     {h2.text}
                   </a>

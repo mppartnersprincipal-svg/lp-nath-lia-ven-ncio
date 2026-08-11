@@ -27,6 +27,7 @@ export function Footer() {
               alt="Logotipo da Venâncio Advocacia, escritório da advogada Nathália Venâncio, em Goiânia"
               width={645}
               height={502}
+              sizes="104px"
               className="h-20 w-auto"
             />
           </Link>
@@ -122,7 +123,7 @@ export function Footer() {
             </p>
             <Link
               href="/politica-de-privacidade"
-              className="text-on-dark-muted transition-colors duration-200 hover:text-gold-300"
+              className="inline-flex min-h-11 items-center py-2 text-on-dark-muted transition-colors duration-200 hover:text-gold-300 md:min-h-0 md:py-0"
             >
               Política de Privacidade
             </Link>

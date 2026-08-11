@@ -108,6 +108,7 @@ export function Header() {
             width={212}
             height={252}
             priority
+            sizes="40px"
             className="h-11 w-auto"
           />
           <span aria-hidden className="flex flex-col">
