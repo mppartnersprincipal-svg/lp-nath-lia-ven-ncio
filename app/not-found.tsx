@@ -9,7 +9,7 @@ export default function NotFound() {
         <p className="text-eyebrow uppercase text-verde-700">Erro 404</p>
         <h1 className="mt-4 text-h1">Página não encontrada</h1>
         <p className="mt-4 text-lead text-muted">
-          O endereço que você acessou não existe ou foi movido. Sem problema —
+          O endereço que você acessou não existe ou foi movido. Sem problema:
           os caminhos abaixo levam você de volta.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">

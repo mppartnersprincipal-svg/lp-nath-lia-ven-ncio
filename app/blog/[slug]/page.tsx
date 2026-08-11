@@ -81,7 +81,7 @@ export default async function PostPage({ params }: PageProps<"/blog/[slug]">) {
 
           {/* Bloco de autoria — texto do template em docs/COPY.md */}
           <p className="mt-6 border-b border-line pb-6 text-small text-foreground">
-            Por {site.lawyer} — OAB/GO nº 76.040 · Publicado em{" "}
+            Por {site.lawyer}, OAB/GO nº 76.040 · Publicado em{" "}
             <time dateTime={meta.publishedAt}>
               {formatDate(meta.publishedAt)}
             </time>{" "}

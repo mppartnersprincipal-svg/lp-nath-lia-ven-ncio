@@ -9,7 +9,7 @@ import { PostCard } from "@/components/blog/PostCard";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Conteúdo informativo sobre Direito do Consumidor, Bancário, Cível e da Saúde, em linguagem simples. Por Nathália Venâncio de Abreu — OAB/GO 76.040.",
+    "Conteúdo informativo sobre Direito do Consumidor, Bancário, Cível e da Saúde, em linguagem simples. Por Nathália Venâncio de Abreu, OAB/GO 76.040.",
   alternates: { canonical: "/blog" },
   openGraph: {
     title: "Blog | Venâncio Advocacia",

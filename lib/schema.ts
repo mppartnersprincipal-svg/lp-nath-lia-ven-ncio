@@ -28,7 +28,7 @@ export function organizationSchema() {
         parentOrganization: { "@id": orgId },
         address: {
           "@type": "PostalAddress",
-          streetAddress: `${site.address.street} — ${site.address.district}`,
+          streetAddress: `${site.address.street}, ${site.address.district}`,
           addressLocality: site.address.city,
           addressRegion: site.address.state,
           postalCode: site.address.zip,
@@ -62,7 +62,7 @@ export function personSchema() {
     name: site.lawyer,
     jobTitle: "Advogada",
     identifier: site.oab,
-    description: `${site.lawyer} — ${site.oab}, fundadora da ${site.name}.`,
+    description: `${site.lawyer}, ${site.oab}, fundadora da ${site.name}.`,
     worksFor: { "@id": `${site.baseUrl}/#legalservice` },
     url: `${site.baseUrl}/sobre`,
     image: `${site.baseUrl}/images/nathalia/nathalia-retrato.webp`,

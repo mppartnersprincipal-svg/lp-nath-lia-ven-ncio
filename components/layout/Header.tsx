@@ -99,17 +99,25 @@ export function Header() {
       <Container className="flex h-18 items-center justify-between gap-6">
         <Link
           href="/"
-          className="shrink-0"
-          aria-label="Venâncio Advocacia — página inicial"
+          className="flex shrink-0 items-center gap-3"
+          aria-label="Venâncio Advocacia, página inicial"
         >
           <Image
-            src="/logo/logo-header.png"
-            alt="Venâncio Advocacia — logotipo do escritório da advogada Nathália Venâncio, em Goiânia"
-            width={655}
-            height={515}
+            src="/logo/logo-v.png"
+            alt="Logotipo da Venâncio Advocacia, escritório da advogada Nathália Venâncio, em Goiânia"
+            width={212}
+            height={252}
             priority
-            className="h-14 w-auto"
+            className="h-11 w-auto"
           />
+          <span aria-hidden className="flex flex-col">
+            <span className="font-display text-[1.375rem] leading-none tracking-[0.14em] text-creme-100">
+              VENÂNCIO
+            </span>
+            <span className="mt-1.5 text-[0.5625rem] leading-none tracking-[0.5em] uppercase text-gold-300">
+              Advocacia
+            </span>
+          </span>
         </Link>
 
         {/* Navegação desktop */}

@@ -36,7 +36,7 @@ const faq = [
   {
     question: "Vou entender o que está acontecendo no meu caso?",
     answer:
-      "Sim — esse é justamente o diferencial do escritório: explicar tudo em linguagem simples e manter você informado em cada etapa.",
+      "Sim. Esse é justamente o diferencial do escritório: explicar tudo em linguagem simples e manter você informado em cada etapa.",
   },
 ];
 

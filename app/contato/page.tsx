@@ -10,12 +10,12 @@ import { MapEmbed } from "@/components/shared/MapEmbed";
 import { ContactForm } from "@/components/forms/ContactForm";
 
 export const metadata: Metadata = {
-  title: { absolute: "Contato | Venâncio Advocacia — Advogada em Goiânia" },
+  title: { absolute: "Contato | Advogada em Goiânia | Venâncio Advocacia" },
   description:
     "Fale com a Venâncio Advocacia em Goiânia: WhatsApp (62) 99309-1434, e-mail e formulário. Atendimento de segunda a sexta, 8h às 18h.",
   alternates: { canonical: "/contato" },
   openGraph: {
-    title: "Contato | Venâncio Advocacia — Advogada em Goiânia",
+    title: "Contato | Advogada em Goiânia | Venâncio Advocacia",
     description:
       "Fale com a Venâncio Advocacia em Goiânia: WhatsApp (62) 99309-1434, e-mail e formulário. Atendimento de segunda a sexta, 8h às 18h.",
     type: "website",
@@ -37,7 +37,7 @@ export default function Contato() {
           <Breadcrumbs items={[{ label: "Contato", href: "/contato" }]} />
           <h1 className="mt-4 text-h1">Fale com a Venâncio Advocacia</h1>
           <p className="mt-4 max-w-narrow text-lead text-muted">
-            Conte o que está acontecendo — o primeiro passo é uma conversa.
+            Conte o que está acontecendo: o primeiro passo é uma conversa.
             Você pode falar direto no WhatsApp, enviar uma mensagem pelo
             formulário ou nos escrever por e-mail. O atendimento é próximo do
             início ao fim.
@@ -79,8 +79,8 @@ export default function Contato() {
                 <MapPin aria-hidden strokeWidth={1.5} className={napIcon} />
                 <span>
                   <strong className="font-medium text-heading">Endereço:</strong>{" "}
-                  {site.address.street} — {site.address.district},{" "}
-                  {site.address.city}/{site.address.state} — CEP{" "}
+                  {site.address.street}, {site.address.district},{" "}
+                  {site.address.city}/{site.address.state}, CEP{" "}
                   {site.address.zip}
                 </span>
               </li>

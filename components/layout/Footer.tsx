@@ -21,12 +21,12 @@ export function Footer() {
 
       <Container className="grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1fr_1.2fr]">
         <div>
-          <Link href="/" aria-label="Venâncio Advocacia — página inicial">
+          <Link href="/" aria-label="Venâncio Advocacia, página inicial">
             <Image
               src="/logo/logo-header.png"
-              alt="Venâncio Advocacia — logotipo do escritório da advogada Nathália Venâncio, em Goiânia"
-              width={655}
-              height={515}
+              alt="Logotipo da Venâncio Advocacia, escritório da advogada Nathália Venâncio, em Goiânia"
+              width={645}
+              height={502}
               className="h-20 w-auto"
             />
           </Link>
@@ -34,7 +34,7 @@ export function Footer() {
             Advocacia com atendimento próximo, em Goiânia e em todo o Brasil.
           </p>
           <p className="mt-3">
-            {site.lawyer} — {site.oab}
+            {site.lawyer}, {site.oab}
           </p>
         </div>
 
@@ -68,8 +68,8 @@ export function Footer() {
             <li className="flex items-start gap-3 py-2 text-on-dark-muted">
               <MapPin aria-hidden strokeWidth={1.5} className="mt-1 size-4 shrink-0 text-gold-300" />
               <span>
-                {site.address.street} — {site.address.district},{" "}
-                {site.address.city}/{site.address.state} — CEP {site.address.zip}
+                {site.address.street}, {site.address.district},{" "}
+                {site.address.city}/{site.address.state}, CEP {site.address.zip}
               </span>
             </li>
             <li>

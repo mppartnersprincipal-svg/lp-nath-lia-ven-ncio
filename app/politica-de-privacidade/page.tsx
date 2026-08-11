@@ -32,13 +32,13 @@ export default function PoliticaDePrivacidade() {
           Esta Política de Privacidade explica, de forma simples, como a{" "}
           <strong className="font-medium text-heading">{site.name}</strong>{" "}
           trata os dados pessoais de quem visita este site, em conformidade com
-          a Lei nº 13.709/2018 (Lei Geral de Proteção de Dados — LGPD).
+          a Lei nº 13.709/2018, a Lei Geral de Proteção de Dados (LGPD).
         </p>
 
         <h2 className="mt-12 text-h2">Quem é o controlador dos dados</h2>
         <p className="mt-4 text-foreground">
-          {site.name} — {site.lawyer}, {site.oab}. Endereço:{" "}
-          {site.address.street} — {site.address.district}, {site.address.city}/
+          {site.name}, de {site.lawyer}, {site.oab}. Endereço:{" "}
+          {site.address.street}, {site.address.district}, {site.address.city}/
           {site.address.state}, CEP {site.address.zip}. Contato:{" "}
           <a
             href={`mailto:${site.email}`}
@@ -62,7 +62,7 @@ export default function PoliticaDePrivacidade() {
           Importante: este site não armazena os dados do formulário em banco de
           dados próprio. Ao enviar, o conteúdo preenchido é encaminhado
           diretamente para a conversa de WhatsApp do escritório, aberta no seu
-          próprio aplicativo — a mensagem só é efetivamente transmitida quando
+          próprio aplicativo. A mensagem só é efetivamente transmitida quando
           você confirma o envio no WhatsApp. A partir daí, a comunicação passa
           a ser regida também pela política de privacidade do WhatsApp (Meta).
         </p>
@@ -118,7 +118,7 @@ export default function PoliticaDePrivacidade() {
         <p className="mt-4 text-foreground">
           A sua escolha fica registrada apenas no seu navegador. Para revê-la,
           limpe os dados de navegação deste site (cookies e armazenamento
-          local) — o banner de consentimento será exibido novamente na próxima
+          local). O banner de consentimento será exibido novamente na próxima
           visita.
         </p>
 

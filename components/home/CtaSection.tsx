@@ -10,7 +10,7 @@ export function CtaSection() {
           Tem uma dúvida ou um problema jurídico?
         </h2>
         <p className="mt-4 text-lead text-on-dark-muted">
-          Conte o que está acontecendo — o primeiro passo é uma conversa.
+          Conte o que está acontecendo: o primeiro passo é uma conversa.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <WhatsAppButton variant="gold" />

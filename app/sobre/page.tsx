@@ -46,7 +46,7 @@ export default function Sobre() {
               {`Advocacia com atendimento próximo, em Goiânia e em todo o Brasil.`}
             </p>
             <p className="mt-3 text-on-dark-muted">
-              Nathália Venâncio de Abreu — OAB/GO nº 76.040
+              Nathália Venâncio de Abreu, OAB/GO nº 76.040
             </p>
           </div>
           <Image
@@ -69,7 +69,7 @@ export default function Sobre() {
             A Venâncio Advocacia é um escritório atual, criado a partir da
             experiência da sua fundadora, Nathália Venâncio de Abreu. Ao longo
             da atuação profissional em outros escritórios, Nathália teve contato
-            direto com diferentes demandas e perfis de clientes — e foi ali que
+            direto com diferentes demandas e perfis de clientes. Foi ali que
             amadureceu uma convicção: a advocacia pode (e deve) ser mais próxima
             das pessoas.
           </p>
@@ -77,8 +77,8 @@ export default function Sobre() {
             Em 2026, essa convicção virou decisão. Nasceu a Venâncio Advocacia,
             com uma proposta de atendimento mais próximo, personalizado e
             acessível, unindo conhecimento jurídico, atendimento humanizado e
-            comunicação clara — e usando a tecnologia para atender clientes em
-            todo o Brasil.
+            comunicação clara. A tecnologia entrou como aliada para atender
+            clientes em todo o Brasil.
           </p>
 
           <h2 className="mt-16 text-h2">Missão e valores</h2>
@@ -105,7 +105,7 @@ export default function Sobre() {
             <p className="mt-6 text-foreground">
               Antes de qualquer estratégia, a gente escuta. Reservamos tempo
               para entender o seu problema em detalhe, esclarecer dúvidas e
-              analisar as alternativas possíveis — para só então definir, junto
+              analisar as alternativas possíveis, para só então definir, junto
               com você, o melhor caminho. Nossa preocupação constante é manter
               você informado, para que nunca se sinta distante ou sem notícias
               sobre a própria demanda.

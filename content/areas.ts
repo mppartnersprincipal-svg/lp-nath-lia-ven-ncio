@@ -33,7 +33,7 @@ export const areas: Area[] = [
     title: "Direito do Consumidor",
     slug: "direito-do-consumidor",
     cardExcerpt:
-      "Cobrança indevida, nome negativado, produto ou serviço com problema? Você tem direitos — e nós explicamos quais.",
+      "Cobrança indevida, nome negativado, produto ou serviço com problema? Você tem direitos, e nós explicamos quais.",
     whatsappKey: "consumidor",
     photo: {
       src: "/images/nathalia/nathalia-retrato.webp",
@@ -50,11 +50,11 @@ export const areas: Area[] = [
     },
     h1: "Advogado do Consumidor em Goiânia: seus direitos, explicados de forma clara",
     intro:
-      "Você pagou por um produto que não chegou, teve o nome negativado por uma dívida que não reconhece, ou viu uma cobrança que não deveria estar ali? Situações assim geram angústia — e, na maioria das vezes, existem direitos que protegem o consumidor. Aqui, você primeiro entende o que aconteceu e quais caminhos existem, para depois decidir com segurança.",
+      "Você pagou por um produto que não chegou, teve o nome negativado por uma dívida que não reconhece, ou viu uma cobrança que não deveria estar ali? Situações assim geram angústia. Na maioria das vezes, porém, existem direitos que protegem o consumidor. Aqui, você primeiro entende o que aconteceu e quais caminhos existem, para depois decidir com segurança.",
     alt: "Nathália Venâncio, advogada de Direito do Consumidor em Goiânia",
     comoAtuamosTitle: "Como a Venâncio Advocacia atua no Direito do Consumidor",
     comoAtuamos:
-      "O Código de Defesa do Consumidor existe para equilibrar a relação entre você e as empresas. Nossa atuação é orientar, esclarecer e buscar a proteção dos seus direitos diante de irregularidades em produtos ou serviços — sempre explicando o passo a passo em linguagem que você entende.",
+      "O Código de Defesa do Consumidor existe para equilibrar a relação entre você e as empresas. Nossa atuação é orientar, esclarecer e buscar a proteção dos seus direitos diante de irregularidades em produtos ou serviços, sempre explicando o passo a passo em linguagem que você entende.",
     situacoes: [
       "Vícios, defeitos e falhas no atendimento;",
       "Demora ou não recebimento de mercadorias;",
@@ -67,7 +67,7 @@ export const areas: Area[] = [
       "Demais impasses do mercado de consumo.",
     ],
     comoFunciona:
-      "Começamos ouvindo o seu caso e analisando os documentos (contratos, comprovantes, prints, protocolos). Em seguida, explicamos as alternativas — da tentativa de solução direta com a empresa à ação judicial, quando for o caminho adequado — para que você decida o próximo passo com clareza.",
+      "Começamos ouvindo o seu caso e analisando os documentos (contratos, comprovantes, prints, protocolos). Em seguida, explicamos as alternativas, que vão da tentativa de solução direta com a empresa até a ação judicial, quando for o caminho adequado. Assim você decide o próximo passo com clareza.",
     faq: [
       {
         question:
@@ -138,11 +138,11 @@ export const areas: Area[] = [
     },
     h1: "Advogado de Direito Bancário em Goiânia: financiamentos, consignado e busca e apreensão",
     intro:
-      "Recebeu uma notificação de busca e apreensão do seu carro? Descobriu um desconto de empréstimo que você nunca contratou? Desconfia que está pagando juros altos demais no financiamento? Momentos assim assustam — mas existem direitos e caminhos. Aqui, você entende a sua situação com calma antes de decidir o que fazer.",
+      "Recebeu uma notificação de busca e apreensão do seu carro? Descobriu um desconto de empréstimo que você nunca contratou? Desconfia que está pagando juros altos demais no financiamento? Momentos assim assustam, mas existem direitos e caminhos. Aqui, você entende a sua situação com calma antes de decidir o que fazer.",
     alt: "Nathália Venâncio, advogada de Direito Bancário em Goiânia",
     comoAtuamosTitle: "Como a Venâncio Advocacia atua no Direito Bancário",
     comoAtuamos:
-      "Atuamos na defesa de consumidores e clientes em conflitos com instituições financeiras. A ideia é simples: analisar o seu contrato, identificar o que pode estar irregular e explicar as alternativas — sempre com transparência e sem prometer resultado.",
+      "Atuamos na defesa de consumidores e clientes em conflitos com instituições financeiras. A ideia é simples: analisar o seu contrato, identificar o que pode estar irregular e explicar as alternativas, sempre com transparência e sem prometer resultado.",
     situacoes: [
       "Empréstimos consignados (inclusive descontos que você não reconhece);",
       "Empréstimos não consignados;",
@@ -154,7 +154,7 @@ export const areas: Area[] = [
       "Demais conflitos de relações bancárias.",
     ],
     comoFunciona:
-      "Começamos analisando o contrato e os documentos (extratos, notificações, comprovantes). Verificamos cláusulas, juros e encargos, e explicamos as opções — da defesa em busca e apreensão à revisão de contrato ou contestação de consignado — para que você entenda cada passo.",
+      "Começamos analisando o contrato e os documentos (extratos, notificações, comprovantes). Verificamos cláusulas, juros e encargos, e explicamos as opções: defesa em busca e apreensão, revisão de contrato ou contestação de consignado. Você entende cada passo antes de decidir.",
     faq: [
       {
         question:
@@ -166,12 +166,12 @@ export const areas: Area[] = [
         question:
           "O banco pode tomar meu veículo com quantas parcelas atrasadas?",
         answer:
-          "A instituição pode iniciar a ação após a mora ficar caracterizada e o devedor ser notificado. Cada caso depende do contrato e da regularidade da notificação — por isso a análise é importante.",
+          "A instituição pode iniciar a ação após a mora ficar caracterizada e o devedor ser notificado. Cada caso depende do contrato e da regularidade da notificação, por isso a análise é importante.",
       },
       {
         question: "O que é uma ação revisional de financiamento?",
         answer:
-          "É a ação em que se pede ao Judiciário a revisão de cláusulas do contrato — como juros e encargos considerados abusivos. O objetivo é reequilibrar o contrato; o resultado depende da análise técnica de cada caso.",
+          "É a ação em que se pede ao Judiciário a revisão de cláusulas do contrato, como juros e encargos considerados abusivos. O objetivo é reequilibrar o contrato; o resultado depende da análise técnica de cada caso.",
       },
       {
         question:
@@ -226,11 +226,11 @@ export const areas: Area[] = [
     },
     h1: "Advogado de Direito Civil em Goiânia: indenizações, contratos e conflitos",
     intro:
-      "Sofreu um prejuízo por culpa de outra pessoa ou empresa? Fechou um acordo que não foi cumprido? Nem todo problema vira processo — mas muita gente deixa passar situações que a Justiça reconhece como dano real. O primeiro passo é uma avaliação séria do que aconteceu, para você saber se há um direito a ser buscado.",
+      "Sofreu um prejuízo por culpa de outra pessoa ou empresa? Fechou um acordo que não foi cumprido? Nem todo problema vira processo, mas muita gente deixa passar situações que a Justiça reconhece como dano real. O primeiro passo é uma avaliação séria do que aconteceu, para você saber se há um direito a ser buscado.",
     alt: "Nathália Venâncio, advogada de Direito Civil em Goiânia",
     comoAtuamosTitle: "Como a Venâncio Advocacia atua no Direito Civil",
     comoAtuamos:
-      "O Direito Civil rege boa parte das relações do dia a dia: contratos, obrigações, responsabilidade por danos e conflitos entre particulares. Nossa atuação é entender o seu caso, esclarecer se há reparação cabível e apresentar os caminhos — de forma clara e sem prometer resultados.",
+      "O Direito Civil rege boa parte das relações do dia a dia: contratos, obrigações, responsabilidade por danos e conflitos entre particulares. Nossa atuação é entender o seu caso, esclarecer se há reparação cabível e apresentar os caminhos, de forma clara e sem prometer resultados.",
     situacoes: [
       "Ações de indenização por danos morais;",
       "Ações de indenização por danos materiais;",
@@ -242,7 +242,7 @@ export const areas: Area[] = [
       "Demais demandas de Direito Civil.",
     ],
     comoFunciona:
-      "Analisamos os fatos, os documentos e o contexto, verificamos se há fundamento para reparação e explicamos as alternativas — acordo, ação judicial ou revisão de contrato — para que você tome a decisão com informação de qualidade.",
+      "Analisamos os fatos, os documentos e o contexto, verificamos se há fundamento para reparação e explicamos as alternativas (acordo, ação judicial ou revisão de contrato) para que você tome a decisão com informação de qualidade.",
     faq: [
       {
         question: "Qual a diferença entre dano moral e dano material?",
@@ -252,7 +252,7 @@ export const areas: Area[] = [
       {
         question: "Todo aborrecimento dá direito a indenização?",
         answer:
-          'Não. A Justiça distingue "mero dissabor" de dano indenizável. A fronteira está nos detalhes do caso — por isso a análise individual é importante.',
+          'Não. A Justiça distingue "mero dissabor" de dano indenizável. A fronteira está nos detalhes do caso, por isso a análise individual é importante.',
       },
       {
         question: "A outra parte não cumpriu o contrato. O que posso fazer?",
@@ -262,7 +262,7 @@ export const areas: Area[] = [
       {
         question: "Posso pedir revisão de um contrato que assinei?",
         answer:
-          "Em alguns casos, sim — especialmente quando há cláusulas abusivas ou desequilíbrio. A análise do contrato indica se há fundamento.",
+          "Em alguns casos, sim, especialmente quando há cláusulas abusivas ou desequilíbrio. A análise do contrato indica se há fundamento.",
       },
       {
         question: "Preciso de contrato escrito para ter direito?",
@@ -272,7 +272,7 @@ export const areas: Area[] = [
       {
         question: "Quanto tempo tenho para buscar meus direitos?",
         answer:
-          "Existem prazos legais (prescrição) que variam conforme o tipo de demanda. Por isso, não convém deixar para depois — vale avaliar o caso o quanto antes.",
+          "Existem prazos legais (prescrição) que variam conforme o tipo de demanda. Por isso, não convém deixar para depois: vale avaliar o caso o quanto antes.",
       },
       {
         question: "Vocês elaboram e revisam contratos?",
@@ -308,11 +308,11 @@ export const areas: Area[] = [
     },
     h1: "Advogado de Plano de Saúde em Goiânia: quando a negativa pode ser abusiva",
     intro:
-      'O médico indicou uma cirurgia, um exame ou um tratamento — e o plano de saúde disse "não". Nessas horas, a sensação é de impotência, ainda mais quando a saúde não pode esperar. A boa notícia é que uma negativa administrativa nem sempre é a palavra final: existem caminhos para proteger o direito do paciente. O primeiro passo é entender a sua situação com clareza.',
+      'O médico indicou uma cirurgia, um exame ou um tratamento, e o plano de saúde disse "não". Nessas horas, a sensação é de impotência, ainda mais quando a saúde não pode esperar. A boa notícia é que uma negativa administrativa nem sempre é a palavra final: existem caminhos para proteger o direito do paciente. O primeiro passo é entender a sua situação com clareza.',
     alt: "Nathália Venâncio, advogada de Direito da Saúde em Goiânia",
     comoAtuamosTitle: "Como a Venâncio Advocacia atua no Direito da Saúde",
     comoAtuamos:
-      "Atuamos na defesa dos direitos do paciente diante de operadoras de planos de saúde. Analisamos a negativa, o contrato e a indicação médica, e explicamos as alternativas — inclusive o pedido de liminar (tutela de urgência), quando o caso exige rapidez — sempre com informação honesta e sem prometer resultado.",
+      "Atuamos na defesa dos direitos do paciente diante de operadoras de planos de saúde. Analisamos a negativa, o contrato e a indicação médica, e explicamos as alternativas, inclusive o pedido de liminar (tutela de urgência) quando o caso exige rapidez. Tudo com informação honesta e sem prometer resultado.",
     situacoes: [
       "Negativa de cobertura por planos de saúde;",
       "Negativa de procedimentos, exames, cirurgias ou tratamentos;",
@@ -322,7 +322,7 @@ export const areas: Area[] = [
       "Demais situações envolvendo direitos do paciente.",
     ],
     comoFunciona:
-      "Reunimos a negativa (por escrito, quando possível), o relatório médico e o contrato do plano. A partir daí, avaliamos se a recusa pode ser abusiva e explicamos o caminho — incluindo, quando há urgência, o pedido de decisão liminar para garantir o atendimento enquanto o processo tramita.",
+      "Reunimos a negativa (por escrito, quando possível), o relatório médico e o contrato do plano. A partir daí, avaliamos se a recusa pode ser abusiva e explicamos o caminho. Quando há urgência, isso inclui o pedido de decisão liminar para garantir o atendimento enquanto o processo tramita.",
     faq: [
       {
         question: "O plano negou minha cirurgia. Qual o primeiro passo?",
@@ -363,7 +363,7 @@ export const areas: Area[] = [
       {
         question: "Vocês atendem pacientes fora de Goiânia?",
         answer:
-          "Sim. O atendimento é presencial em Goiânia e online para todo o Brasil — o que ajuda em casos urgentes.",
+          "Sim. O atendimento é presencial em Goiânia e online para todo o Brasil, o que ajuda em casos urgentes.",
       },
     ],
     ctaTitle: "Teve um procedimento negado pelo plano?",

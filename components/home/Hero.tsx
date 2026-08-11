@@ -13,7 +13,7 @@ export function Hero() {
             Brasil
           </h1>
           <p className="mt-6 text-lead text-on-dark-muted">
-            Enfrentar um problema jurídico já é difícil — entender o que está
+            Enfrentar um problema jurídico já é difícil. Entender o que está
             acontecendo não deveria ser. Na Venâncio Advocacia, você é ouvido
             com atenção, entende cada etapa do seu caso em linguagem simples e
             sabe sempre em que pé está a sua demanda.

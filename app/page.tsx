@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "Advocacia com atendimento próximo e linguagem clara em Goiânia. Atuação em Direito do Consumidor, Bancário, Cível e da Saúde. Fale no WhatsApp.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Venâncio Advocacia — advocacia próxima e clara em Goiânia",
+    title: "Venâncio Advocacia | Advocacia próxima e clara em Goiânia",
     description:
       "Atuação em Direito do Consumidor, Bancário, Cível e da Saúde. Atendimento em Goiânia e em todo o Brasil.",
     type: "website",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
         url: "/og/og-home.png",
         width: 1200,
         height: 630,
-        alt: "Venâncio Advocacia — advocacia com atendimento próximo, em Goiânia e em todo o Brasil",
+        alt: "Venâncio Advocacia, escritório com atendimento próximo, em Goiânia e em todo o Brasil",
       },
     ],
   },

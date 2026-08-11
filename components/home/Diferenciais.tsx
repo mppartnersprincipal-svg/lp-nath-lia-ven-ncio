@@ -11,7 +11,7 @@ const itens = [
   {
     icon: MessagesSquare,
     title: "Comunicação clara",
-    text: "Você entende o que está acontecendo, em que fase está o seu caso e quais são as alternativas — sem juridiquês.",
+    text: "Você entende o que está acontecendo, em que fase está o seu caso e quais são as alternativas, sem juridiquês.",
   },
   {
     icon: ShieldCheck,
