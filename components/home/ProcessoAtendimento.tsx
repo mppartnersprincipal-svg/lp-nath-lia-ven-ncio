@@ -1,11 +1,12 @@
-import { Ear, Eye, MessageCircle, Route } from "lucide-react";
+import { Ear, Eye, Route } from "lucide-react";
 import { Container } from "@/components/layout/Container";
+import { WhatsAppIcon } from "@/components/shared/WhatsAppIcon";
 
 // Passos literais de docs/COPY.md — Home, "Como funciona o atendimento"
 // (título e descrição separados no travessão do texto original).
 const passos = [
   {
-    icon: MessageCircle,
+    icon: WhatsAppIcon,
     title: "Você entra em contato",
     text: "pelo WhatsApp ou pelo formulário, e conta o que está acontecendo.",
   },

@@ -1,5 +1,5 @@
-import { MessageCircle } from "lucide-react";
 import { waLink } from "@/lib/whatsapp";
+import { WhatsAppIcon } from "@/components/shared/WhatsAppIcon";
 
 const base =
   "inline-flex min-h-11 items-center justify-center gap-2 rounded-pill px-7 text-eyebrow uppercase transition-all duration-200 ease-in-out";
@@ -31,7 +31,7 @@ export function WhatsAppButton({
       rel="noopener noreferrer"
       className={`${base} ${variants[variant]} ${className}`}
     >
-      <MessageCircle aria-hidden strokeWidth={1.5} className="size-4" />
+      <WhatsAppIcon aria-hidden className="size-4" />
       {label}
     </a>
   );

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { AtSign, Clock, Globe, Mail, MapPin, MessageCircle } from "lucide-react";
+import { AtSign, Clock, Globe, Mail, MapPin } from "lucide-react";
+import { WhatsAppIcon } from "@/components/shared/WhatsAppIcon";
 import { site } from "@/lib/site";
 import { waLink, whatsappMessages } from "@/lib/whatsapp";
 import { Container } from "@/components/layout/Container";
@@ -50,7 +51,7 @@ export default function Contato() {
           <div className="h-fit rounded-card border border-line bg-card p-8 shadow-card">
             <ul>
               <li className={napItem}>
-                <MessageCircle aria-hidden strokeWidth={1.5} className={napIcon} />
+                <WhatsAppIcon aria-hidden className={napIcon} />
                 <span>
                   <strong className="font-medium text-heading">
                     WhatsApp / Telefone:

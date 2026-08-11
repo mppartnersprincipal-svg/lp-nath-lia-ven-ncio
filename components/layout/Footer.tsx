@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AtSign, Clock, Globe, Mail, MapPin, MessageCircle } from "lucide-react";
+import { AtSign, Clock, Globe, Mail, MapPin } from "lucide-react";
+import { WhatsAppIcon } from "@/components/shared/WhatsAppIcon";
 import { site } from "@/lib/site";
 import { waLink } from "@/lib/whatsapp";
 import { areas } from "@/content/areas";
@@ -78,7 +79,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className={`${footerLink} flex items-center gap-3`}
               >
-                <MessageCircle aria-hidden strokeWidth={1.5} className="size-4 shrink-0 text-gold-300" />
+                <WhatsAppIcon aria-hidden className="size-4 shrink-0 text-gold-300" />
                 WhatsApp: {site.phoneDisplay}
               </a>
             </li>
