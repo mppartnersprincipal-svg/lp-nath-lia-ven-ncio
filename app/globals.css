@@ -1,26 +1,138 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ==========================================================================
+   Design System — Venâncio Advocacia
+   Transcrição fiel de ../Design System/tokens/*.css
+   Única fonte de verdade visual — zero valores fora deste arquivo.
+   ========================================================================== */
+
+@theme {
+  /* CORES — paleta padrão do Tailwind removida: só tokens do DS existem */
+  --color-*: initial;
+
+  /* Verde institucional (logo: #1A2A14) */
+  --color-verde-950: #111C0D;
+  --color-verde-900: #1A2A14;
+  --color-verde-800: #24371C;
+  --color-verde-700: #33502A;
+
+  /* Creme (paleta: #F2D7B0) */
+  --color-creme-50: #FBF6EB;
+  --color-creme-100: #F7EBD5;
+  --color-creme-300: #F2D7B0;
+  --color-creme-500: #E4C08F;
+
+  /* Dourado */
+  --color-gold-300: #E2C687;
+  --color-gold-500: #C3A050;
+  --color-gold-700: #96762F;
+
+  /* Semânticos — superfícies */
+  --color-page: var(--color-creme-50);   /* bg-page */
+  --color-card: #FFFDF6;                 /* bg-card */
+  --color-band: var(--color-creme-100);  /* bg-band */
+  --color-dark: var(--color-verde-900);  /* bg-dark */
+
+  /* Semânticos — texto */
+  --color-heading: var(--color-verde-900);
+  --color-foreground: #3C4A34;              /* DS: --text-body (cor) — renomeado */
+  --color-muted: #6B7561;
+  --color-on-dark: #F2E7D2;
+  --color-on-dark-muted: rgb(242 231 210 / 0.72);
+
+  /* Semânticos — acento, bordas, links, foco */
+  --color-accent: var(--color-gold-500);
+  --color-accent-strong: var(--color-gold-700);
+  --color-line: rgb(26 42 20 / 0.16);        /* DS: --border-subtle → border-line */
+  --color-line-gold: rgb(195 160 80 / 0.5);  /* DS: --border-gold → border-line-gold */
+  --color-link: var(--color-gold-700);
+  --color-link-hover: var(--color-verde-900);
+  --color-ring: rgb(195 160 80 / 0.45);      /* DS: --focus-ring */
+
+  /* TIPOGRAFIA — escala com line-height pareado */
+  --text-*: initial;
+  --leading-display: 1.08;
+  --leading-body: 1.65;
+
+  --text-hero: clamp(44px, 5.5vw, 72px);
+  --text-hero--line-height: var(--leading-display);
+  --text-h1: 48px;
+  --text-h1--line-height: var(--leading-display);
+  --text-h2: 36px;
+  --text-h2--line-height: var(--leading-display);
+  --text-h3: 26px;
+  --text-h3--line-height: var(--leading-display);
+  --text-lead: 20px;
+  --text-lead--line-height: var(--leading-body);
+  --text-body: 17px;
+  --text-body--line-height: var(--leading-body);
+  --text-small: 14px;
+  --text-small--line-height: var(--leading-body);
+  --text-eyebrow: 13px;
+  --text-eyebrow--line-height: 1;
+  --text-eyebrow--letter-spacing: var(--tracking-caps);
+  --text-eyebrow--font-weight: 500;
+
+  --tracking-caps: 0.22em;  /* eyebrows, botões, nav — sempre uppercase */
+  --tracking-wide: 0.08em;
+
+  /* ESPAÇAMENTO — escala 4px do DS = escala padrão do Tailwind.
+     space-1..9 do DS → p-1, p-2, p-3, p-4, p-6, p-8, p-12, p-16, p-24 */
+  --spacing-section: clamp(72px, 10vw, 128px);  /* py-section */
+
+  /* CONTAINERS */
+  --container-site: 1140px;    /* max-w-site */
+  --container-narrow: 760px;   /* max-w-narrow */
+
+  /* RAIOS */
+  --radius-*: initial;
+  --radius-sm: 2px;      /* campos de formulário */
+  --radius-md: 4px;
+  --radius-card: 16px;   /* cartões (conforme Card.jsx do DS) */
+  --radius-pill: 999px;  /* CTAs */
+
+  /* SOMBRAS */
+  --shadow-*: initial;
+  --shadow-card: 0 1px 2px rgb(26 42 20 / 0.05), 0 14px 36px -16px rgb(26 42 20 / 0.22);
+  --shadow-lift: 0 2px 4px rgb(26 42 20 / 0.06), 0 22px 48px -18px rgb(26 42 20 / 0.3);
 }
 
+/* FONTES — variáveis definidas pelo next/font em app/layout.tsx
+   (Cormorant Garamond ← Branch · Jost ← Century Gothic, conforme DS) */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-*: initial;
+  --font-display: var(--font-cormorant), "Times New Roman", serif;
+  --font-sans: var(--font-jost), "Century Gothic", "Futura", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Tokens sem namespace de utility — uso via CSS direto */
+:root {
+  --gold-gradient: linear-gradient(100deg, #8C6A28 0%, #D9B96A 40%, #A98336 70%, #E8CE8C 100%);
+  --dur: 200ms;                           /* = duration-200 */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);   /* = ease-in-out */
+}
+
+/* Base global (transcrição de tokens/base.css) */
+@layer base {
+  body {
+    background: var(--color-page);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: var(--leading-body);
+    -webkit-font-smoothing: antialiased;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    color: var(--color-heading);
+    font-weight: 500;   /* DS: --weight-display */
+    line-height: var(--leading-display);
+  }
+  a {
+    color: var(--color-link);
+    transition: color var(--dur) var(--ease);
+  }
+  a:hover { color: var(--color-link-hover); }
+  ::selection { background: var(--color-creme-300); color: var(--color-verde-900); }
+  :focus-visible { outline: none; box-shadow: 0 0 0 3px var(--color-ring); }
 }
