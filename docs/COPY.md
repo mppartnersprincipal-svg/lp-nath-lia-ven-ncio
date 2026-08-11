@@ -103,7 +103,7 @@ Semânticas: Código de Defesa do Consumidor, vício do produto, fornecedor, rel
 OG: og:title Direito do Consumidor em Goiânia | Venâncio Advocacia; og:description Seus direitos como consumidor, explicados de forma clara. Atuação em Goiânia e em todo o Brasil.
 H1
 
-Advogado do Consumidor em Goiânia: seus direitos, explicados de forma clara
+Advogado do Consumidor: seus direitos, explicados de forma clara
 
 Intro (dor + acolhimento)
 
@@ -152,7 +152,7 @@ Semânticas: Código Civil, obrigações, conflito contratual, reparação, part
 OG: og:title Direito Civil em Goiânia | Venâncio Advocacia; og:description Indenizações, contratos e conflitos civis com atendimento próximo. Goiânia e todo o Brasil.
 H1
 
-Advogado de Direito Civil em Goiânia: indenizações, contratos e conflitos
+Advogado de Direito Civil: indenizações, contratos e conflitos
 
 Intro
 
@@ -200,7 +200,7 @@ Semânticas: instituição financeira, purgação da mora, cláusula abusiva, CD
 OG: og:title Direito Bancário em Goiânia | Venâncio Advocacia; og:description Defesa em busca e apreensão, revisional e consignado indevido, com linguagem clara.
 H1
 
-Advogado de Direito Bancário em Goiânia: financiamentos, consignado e busca e apreensão
+Advogado de Direito Bancário: financiamentos, consignado e busca e apreensão
 
 Intro
 
@@ -252,7 +252,7 @@ Semânticas: ANS, rol de procedimentos, tutela de urgência, operadora, direito 
 OG: og:title Direito da Saúde em Goiânia | Venâncio Advocacia; og:description Negativa de cirurgia, exame ou tratamento pelo plano? Entenda seus direitos.
 H1
 
-Advogado de Plano de Saúde em Goiânia: quando a negativa pode ser abusiva
+Advogado de Plano de Saúde: quando a negativa pode ser abusiva
 
 Intro
 

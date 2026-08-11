@@ -48,7 +48,7 @@ export const areas: Area[] = [
       ogDescription:
         "Seus direitos como consumidor, explicados de forma clara. Atuação em Goiânia e em todo o Brasil.",
     },
-    h1: "Advogado do Consumidor em Goiânia: seus direitos, explicados de forma clara",
+    h1: "Advogado do Consumidor: seus direitos, explicados de forma clara",
     intro:
       "Você pagou por um produto que não chegou, teve o nome negativado por uma dívida que não reconhece, ou viu uma cobrança que não deveria estar ali? Situações assim geram angústia. Na maioria das vezes, porém, existem direitos que protegem o consumidor. Aqui, você primeiro entende o que aconteceu e quais caminhos existem, para depois decidir com segurança.",
     alt: "Nathália Venâncio, advogada de Direito do Consumidor em Goiânia",
@@ -136,7 +136,7 @@ export const areas: Area[] = [
       ogDescription:
         "Defesa em busca e apreensão, revisional e consignado indevido, com linguagem clara.",
     },
-    h1: "Advogado de Direito Bancário em Goiânia: financiamentos, consignado e busca e apreensão",
+    h1: "Advogado de Direito Bancário: financiamentos, consignado e busca e apreensão",
     intro:
       "Recebeu uma notificação de busca e apreensão do seu carro? Descobriu um desconto de empréstimo que você nunca contratou? Desconfia que está pagando juros altos demais no financiamento? Momentos assim assustam, mas existem direitos e caminhos. Aqui, você entende a sua situação com calma antes de decidir o que fazer.",
     alt: "Nathália Venâncio, advogada de Direito Bancário em Goiânia",
@@ -224,7 +224,7 @@ export const areas: Area[] = [
       ogDescription:
         "Indenizações, contratos e conflitos civis com atendimento próximo. Goiânia e todo o Brasil.",
     },
-    h1: "Advogado de Direito Civil em Goiânia: indenizações, contratos e conflitos",
+    h1: "Advogado de Direito Civil: indenizações, contratos e conflitos",
     intro:
       "Sofreu um prejuízo por culpa de outra pessoa ou empresa? Fechou um acordo que não foi cumprido? Nem todo problema vira processo, mas muita gente deixa passar situações que a Justiça reconhece como dano real. O primeiro passo é uma avaliação séria do que aconteceu, para você saber se há um direito a ser buscado.",
     alt: "Nathália Venâncio, advogada de Direito Civil em Goiânia",
@@ -306,7 +306,7 @@ export const areas: Area[] = [
       ogDescription:
         "Negativa de cirurgia, exame ou tratamento pelo plano? Entenda seus direitos.",
     },
-    h1: "Advogado de Plano de Saúde em Goiânia: quando a negativa pode ser abusiva",
+    h1: "Advogado de Plano de Saúde: quando a negativa pode ser abusiva",
     intro:
       'O médico indicou uma cirurgia, um exame ou um tratamento, e o plano de saúde disse "não". Nessas horas, a sensação é de impotência, ainda mais quando a saúde não pode esperar. A boa notícia é que uma negativa administrativa nem sempre é a palavra final: existem caminhos para proteger o direito do paciente. O primeiro passo é entender a sua situação com clareza.',
     alt: "Nathália Venâncio, advogada de Direito da Saúde em Goiânia",
