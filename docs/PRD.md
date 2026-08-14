@@ -125,11 +125,9 @@ export const site = {
   phoneDisplay: "(62) 99309-1434",
   phoneE164: "+5562993091434",
   email: "contato@nathaliavenancioadv.com",
-  address: {
-    street: "Rua Tupis, Qd 30, Lt 18",
-    district: "Setor Urias Magalhães",
-    city: "Goiânia", state: "GO", zip: "74565-650", country: "BR",
-  },
+  // Sem endereço por enquanto — o escritório ainda não tem sede física.
+  // Quando houver, adicionar address aqui e reativar endereço no Footer,
+  // Contato, Política de Privacidade, schema (PostalAddress) e MapEmbed.
   hours: "Segunda a sexta, das 08:00 às 18:00",
   whatsappLink: "https://wa.me/5562993091434",
   whatsappMsgLink: "https://wa.me/message/5SOYSCDWWZHXI1",

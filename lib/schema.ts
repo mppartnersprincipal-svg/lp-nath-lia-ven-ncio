@@ -26,14 +26,6 @@ export function organizationSchema() {
         telephone: site.phoneE164,
         email: site.email,
         parentOrganization: { "@id": orgId },
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: `${site.address.street}, ${site.address.district}`,
-          addressLocality: site.address.city,
-          addressRegion: site.address.state,
-          postalCode: site.address.zip,
-          addressCountry: site.address.country,
-        },
         areaServed: [
           { "@type": "City", name: "Goiânia" },
           { "@type": "Country", name: "Brasil" },

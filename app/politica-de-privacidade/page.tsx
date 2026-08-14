@@ -37,9 +37,7 @@ export default function PoliticaDePrivacidade() {
 
         <h2 className="mt-12 text-h2">Quem é o controlador dos dados</h2>
         <p className="mt-4 text-foreground">
-          {site.name}, de {site.lawyer}, {site.oab}. Endereço:{" "}
-          {site.address.street}, {site.address.district}, {site.address.city}/
-          {site.address.state}, CEP {site.address.zip}. Contato:{" "}
+          {site.name}, de {site.lawyer}, {site.oab}. Contato:{" "}
           <a
             href={`mailto:${site.email}`}
             className="font-medium text-heading underline underline-offset-4 transition-colors duration-200 hover:text-verde-700"

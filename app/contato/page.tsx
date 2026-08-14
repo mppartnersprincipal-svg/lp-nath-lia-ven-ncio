@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-import { AtSign, Clock, Globe, Mail, MapPin } from "lucide-react";
+import { AtSign, Clock, Globe, Mail } from "lucide-react";
 import { WhatsAppIcon } from "@/components/shared/WhatsAppIcon";
 import { site } from "@/lib/site";
 import { waLink, whatsappMessages } from "@/lib/whatsapp";
 import { Container } from "@/components/layout/Container";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
-import { MapEmbed } from "@/components/shared/MapEmbed";
 import { ContactForm } from "@/components/forms/ContactForm";
 
 export const metadata: Metadata = {
@@ -76,15 +75,6 @@ export default function Contato() {
                 </span>
               </li>
               <li className={napItem}>
-                <MapPin aria-hidden strokeWidth={1.5} className={napIcon} />
-                <span>
-                  <strong className="font-medium text-heading">Endereço:</strong>{" "}
-                  {site.address.street}, {site.address.district},{" "}
-                  {site.address.city}/{site.address.state}, CEP{" "}
-                  {site.address.zip}
-                </span>
-              </li>
-              <li className={napItem}>
                 <Clock aria-hidden strokeWidth={1.5} className={napIcon} />
                 <span>
                   <strong className="font-medium text-heading">Horário:</strong>{" "}
@@ -125,19 +115,6 @@ export default function Contato() {
             <div className="mt-8">
               <ContactForm />
             </div>
-          </div>
-        </Container>
-      </section>
-
-      {/* Localização */}
-      <section className="pb-section">
-        <Container>
-          <h2 className="text-h2">Nossa localização</h2>
-          <p className="mt-4 text-foreground">
-            Atendemos presencialmente no Setor Urias Magalhães, em Goiânia.
-          </p>
-          <div className="mt-8">
-            <MapEmbed />
           </div>
         </Container>
       </section>

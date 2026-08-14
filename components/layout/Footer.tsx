@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AtSign, Clock, Globe, Mail, MapPin } from "lucide-react";
+import { AtSign, Clock, Globe, Mail } from "lucide-react";
 import { WhatsAppIcon } from "@/components/shared/WhatsAppIcon";
 import { site } from "@/lib/site";
 import { waLink } from "@/lib/whatsapp";
@@ -66,13 +66,6 @@ export function Footer() {
         <div>
           <p className={columnTitle}>Contato</p>
           <ul className="mt-4">
-            <li className="flex items-start gap-3 py-2 text-on-dark-muted">
-              <MapPin aria-hidden strokeWidth={1.5} className="mt-1 size-4 shrink-0 text-gold-300" />
-              <span>
-                {site.address.street}, {site.address.district},{" "}
-                {site.address.city}/{site.address.state}, CEP {site.address.zip}
-              </span>
-            </li>
             <li>
               <a
                 href={waLink()}

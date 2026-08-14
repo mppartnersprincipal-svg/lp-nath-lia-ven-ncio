@@ -10,7 +10,9 @@ Este site tem caráter meramente informativo, em conformidade com o Provimento n
 
 Footer (texto):
 
-Venâncio Advocacia · Advocacia com atendimento próximo, em Goiânia e em todo o Brasil. Nathália Venâncio de Abreu, OAB/GO nº 76.040 Rua Tupis, Qd 30, Lt 18, Setor Urias Magalhães, Goiânia/GO, CEP 74565-650 WhatsApp: (62) 99309-1434 · E-mail: contato@nathaliavenancioadv.com Atendimento: segunda a sexta, das 08:00 às 18:00 · Atendimento nacional (presencial e online) [Instagram] · [Política de Privacidade]
+Venâncio Advocacia · Advocacia com atendimento próximo, em Goiânia e em todo o Brasil. Nathália Venâncio de Abreu, OAB/GO nº 76.040 WhatsApp: (62) 99309-1434 · E-mail: contato@nathaliavenancioadv.com Atendimento: segunda a sexta, das 08:00 às 18:00 · Atendimento nacional (presencial e online) [Instagram] · [Política de Privacidade]
+
+(Endereço omitido de todo o site por enquanto — o escritório ainda não tem sede. Adicionar quando houver.)
 
 Microcopy dos botões (padrão):
 
@@ -333,7 +335,7 @@ Title: Contato | Advogada em Goiânia | Venâncio Advocacia (≈48c)
 Meta description: Fale com a Venâncio Advocacia em Goiânia: WhatsApp (62) 99309-1434, e-mail e formulário. Atendimento de segunda a sexta, 8h às 18h. (≈140c)
 Slug: /contato
 Keyword primária: contato advogada Goiânia / Venâncio Advocacia contato
-Semânticas: WhatsApp, endereço, Setor Urias Magalhães, horário de atendimento
+Semânticas: WhatsApp, horário de atendimento
 H1
 
 Fale com a Venâncio Advocacia
@@ -344,7 +346,9 @@ Conte o que está acontecendo: o primeiro passo é uma conversa. Você pode fala
 
 Bloco de dados (NAP)
 
-WhatsApp / Telefone: (62) 99309-1434 E-mail: contato@nathaliavenancioadv.com Endereço: Rua Tupis, Qd 30, Lt 18, Setor Urias Magalhães, Goiânia/GO, CEP 74565-650 Horário: segunda a sexta, das 08:00 às 18:00 Atendimento: presencial em Goiânia e online para todo o Brasil Instagram: @venancioadvocacia_
+WhatsApp / Telefone: (62) 99309-1434 E-mail: contato@nathaliavenancioadv.com Horário: segunda a sexta, das 08:00 às 18:00 Atendimento: presencial em Goiânia e online para todo o Brasil Instagram: @venancioadvocacia_
+
+(Sem linha de endereço por enquanto — adicionar quando o escritório tiver sede.)
 
 H2 — Envie uma mensagem
 
@@ -366,9 +370,7 @@ Erro telefone inválido: Digite um número de telefone/WhatsApp válido.
 Erro consentimento: É preciso aceitar a Política de Privacidade para enviar.
 Erro de envio: Não foi possível enviar agora. Tente novamente ou fale pelo WhatsApp (62) 99309-1434.
 Sucesso: Mensagem enviada! Em breve entraremos em contato. Se preferir, fale agora pelo WhatsApp.
-H2 — Nossa localização
-
-Atendemos presencialmente no Setor Urias Magalhães, em Goiânia. (mapa abaixo) Título do iframe do mapa: Mapa da localização da Venâncio Advocacia em Goiânia
+H2 — Nossa localização (seção removida por enquanto — reativar com mapa quando o escritório tiver sede)
 
 CTA
 
