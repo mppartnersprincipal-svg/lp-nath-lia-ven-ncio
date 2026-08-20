@@ -22,6 +22,8 @@ const assuntos = [
   "Direito Bancário",
   "Direito Cível",
   "Direito da Saúde",
+  "Direito Contratual",
+  "Direito Empresarial",
   "Outro assunto",
 ] as const;
 

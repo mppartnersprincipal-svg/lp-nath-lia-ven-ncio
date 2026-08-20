@@ -10,12 +10,12 @@ import { CtaSection } from "@/components/home/CtaSection";
 export const metadata: Metadata = {
   title: { absolute: "Advogada em Goiânia | Venâncio Advocacia" },
   description:
-    "Advocacia com atendimento próximo e linguagem clara em Goiânia. Atuação em Direito do Consumidor, Bancário, Cível e da Saúde. Fale no WhatsApp.",
+    "Advocacia com atendimento próximo e linguagem clara em Goiânia. Atuação em Direito do Consumidor, Bancário, Cível, da Saúde, Contratual e Empresarial. Fale no WhatsApp.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "Venâncio Advocacia | Advocacia próxima e clara em Goiânia",
     description:
-      "Atuação em Direito do Consumidor, Bancário, Cível e da Saúde. Atendimento em Goiânia e em todo o Brasil.",
+      "Atuação em Direito do Consumidor, Bancário, Cível, da Saúde, Contratual e Empresarial. Atendimento em Goiânia e em todo o Brasil.",
     type: "website",
     url: "/",
     images: [

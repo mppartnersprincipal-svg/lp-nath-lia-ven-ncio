@@ -9,12 +9,12 @@ import { ParceirosBlock } from "@/components/areas/ParceirosBlock";
 export const metadata: Metadata = {
   title: "Áreas de Atuação",
   description:
-    "Conheça as áreas de atuação da Venâncio Advocacia: Direito do Consumidor, Bancário, Cível e da Saúde. Atendimento em Goiânia e em todo o Brasil.",
+    "Conheça as áreas de atuação da Venâncio Advocacia: Direito do Consumidor, Bancário, Cível, da Saúde, Contratual e Empresarial. Atendimento em Goiânia e em todo o Brasil.",
   alternates: { canonical: "/areas-de-atuacao" },
   openGraph: {
     title: "Áreas de Atuação | Venâncio Advocacia",
     description:
-      "Atuação em Direito do Consumidor, Bancário, Cível e da Saúde. Atendimento em Goiânia e em todo o Brasil.",
+      "Atuação em Direito do Consumidor, Bancário, Cível, da Saúde, Contratual e Empresarial. Atendimento em Goiânia e em todo o Brasil.",
     type: "website",
     url: "/areas-de-atuacao",
     images: [{ url: "/og/og-areas.png", width: 1200, height: 630 }],
@@ -34,7 +34,7 @@ export default function AreasDeAtuacao() {
           qualquer estratégia, a gente escuta. Conheça as áreas em que o
           escritório atua:
         </p>
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {areas.map((area) => (
             <AreaCard
               key={area.slug}

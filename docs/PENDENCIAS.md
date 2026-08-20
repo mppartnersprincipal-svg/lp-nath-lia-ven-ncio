@@ -1,5 +1,12 @@
 # Pendências de assets — aguardando a cliente
 
+## Copy
+
+- [ ] **Revisão da copy de Direito Contratual e Direito Empresarial** — as
+      duas áreas novas (`content/areas.ts`) foram redigidas internamente
+      seguindo o tom das demais, mas não constam em `docs/COPY.md` e ainda
+      não passaram pela revisão da advogada responsável (Provimento 205/2021).
+
 Itens que bloqueiam a qualidade final mas **não** bloqueiam o desenvolvimento
 (estamos seguindo com os arquivos existentes; ao chegarem os definitivos,
 basta substituir os arquivos em `/public` mantendo os mesmos nomes).

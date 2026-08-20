@@ -1,4 +1,6 @@
 import {
+  Briefcase,
+  FileSignature,
   HeartPulse,
   Landmark,
   Scale,
@@ -12,4 +14,6 @@ export const areaIcons: Record<string, LucideIcon> = {
   "direito-bancario": Landmark,
   "direito-civel": Scale,
   "direito-da-saude": HeartPulse,
+  "direito-contratual": FileSignature,
+  "direito-empresarial": Briefcase,
 };

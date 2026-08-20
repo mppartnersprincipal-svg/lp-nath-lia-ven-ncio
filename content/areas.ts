@@ -370,6 +370,175 @@ export const areas: Area[] = [
     ctaText:
       'Não aceite o "não" como resposta final sem entender seus direitos.',
   },
+  // Copy das áreas abaixo (Contratual e Empresarial) é rascunho interno —
+  // pendente de revisão da advogada responsável (ver docs/PENDENCIAS.md).
+  {
+    title: "Direito Contratual",
+    slug: "direito-contratual",
+    cardExcerpt:
+      "Vai assinar, precisa elaborar ou teve um contrato descumprido? Entenda o que está no papel antes de decidir.",
+    whatsappKey: "contratual",
+    photo: {
+      src: "/images/nathalia/nathalia-sobre.webp",
+      width: 900,
+      height: 1600,
+    },
+    seo: {
+      title: "Advogado de Contratos em Goiânia | Venâncio Advocacia",
+      description:
+        "Elaboração, análise e revisão de contratos, além de defesa em casos de descumprimento. Orientação clara em Goiânia. Fale no WhatsApp.",
+      ogTitle: "Direito Contratual em Goiânia | Venâncio Advocacia",
+      ogDescription:
+        "Contratos elaborados, revisados e explicados em linguagem clara. Goiânia e todo o Brasil.",
+    },
+    h1: "Advogado de Contratos: entenda o que você assina e o que pode exigir",
+    intro:
+      "Vai fechar um negócio e recebeu um contrato cheio de cláusulas difíceis? Assinou um acordo que a outra parte não está cumprindo? O contrato é a segurança de qualquer relação, mas só protege quem entende o que está escrito. Aqui, você recebe orientação para elaborar, revisar ou discutir um contrato antes de tomar qualquer decisão.",
+    alt: "Nathália Venâncio, advogada de Direito Contratual em Goiânia",
+    comoAtuamosTitle: "Como a Venâncio Advocacia atua no Direito Contratual",
+    comoAtuamos:
+      "Atuamos tanto na prevenção quanto no conflito: elaboramos e revisamos contratos para evitar problemas futuros e defendemos seus interesses quando um contrato é descumprido ou contém cláusulas abusivas. Sempre explicando, em linguagem simples, o que cada cláusula significa para você.",
+    situacoes: [
+      "Elaboração de contratos (prestação de serviços, compra e venda, locação e outros);",
+      "Análise e revisão de contratos antes da assinatura;",
+      "Revisão de cláusulas abusivas ou desequilibradas;",
+      "Descumprimento de contrato pela outra parte;",
+      "Rescisão e distrato de contratos;",
+      "Cobrança de valores previstos em contrato;",
+      "Negociação e formalização de acordos;",
+      "Demais conflitos de natureza contratual.",
+    ],
+    comoFunciona:
+      "Se o objetivo é prevenir, analisamos a negociação e elaboramos (ou revisamos) o contrato com cláusulas claras e equilibradas. Se o conflito já existe, examinamos o contrato e as provas do descumprimento e explicamos as alternativas: negociação, notificação extrajudicial ou ação judicial. Você decide com clareza.",
+    faq: [
+      {
+        question: "Vale a pena pagar um advogado para revisar um contrato?",
+        answer:
+          "A revisão antes da assinatura costuma custar muito menos do que um conflito depois. É nela que se identificam cláusulas de multa, garantias, prazos e condições que podem pesar contra você.",
+      },
+      {
+        question: "Assinei um contrato ruim. Ainda posso fazer algo?",
+        answer:
+          "Em alguns casos, sim. Cláusulas abusivas ou situações de desequilíbrio podem ser revistas, e há hipóteses legais de rescisão. A análise do documento indica os caminhos possíveis.",
+      },
+      {
+        question: "A outra parte não está cumprindo o contrato. O que fazer?",
+        answer:
+          "Reúna o contrato e as provas do descumprimento (mensagens, comprovantes, notificações). É possível exigir o cumprimento, a rescisão com perdas e danos ou a devolução de valores, conforme o caso.",
+      },
+      {
+        question: "Contrato verbal tem validade?",
+        answer:
+          "Em regra, sim, mas provar o que foi combinado é mais difícil. Mensagens, áudios, comprovantes de pagamento e testemunhas ajudam. Sempre que possível, formalize por escrito.",
+      },
+      {
+        question: "O que é uma notificação extrajudicial?",
+        answer:
+          "É uma comunicação formal enviada à outra parte antes de uma ação judicial, registrando o problema e dando oportunidade de solução. Em muitos casos, resolve o conflito sem processo.",
+      },
+      {
+        question: "Posso desistir de um contrato que assinei?",
+        answer:
+          "Depende do tipo de contrato e do momento. Em compras fora do estabelecimento comercial, por exemplo, há direito de arrependimento em 7 dias. Em outros casos, é preciso analisar as cláusulas de rescisão.",
+      },
+      {
+        question: "Vocês elaboram contratos para empresas também?",
+        answer:
+          "Sim. Atendemos pessoas físicas e empresas, tanto na elaboração quanto na revisão e nos conflitos contratuais.",
+      },
+      {
+        question: "Posso ser atendido de outra cidade?",
+        answer:
+          "Sim. O atendimento é presencial em Goiânia e online para todo o Brasil.",
+      },
+    ],
+    ctaTitle: "Vai assinar um contrato ou teve um acordo descumprido?",
+    ctaText: "Entenda o que está no papel antes de dar o próximo passo.",
+  },
+  {
+    title: "Direito Empresarial",
+    slug: "direito-empresarial",
+    cardExcerpt:
+      "Assessoria jurídica para a sua empresa: contratos, cobranças, conflitos com fornecedores e prevenção de problemas.",
+    whatsappKey: "empresarial",
+    photo: {
+      src: "/images/nathalia/nathalia-escritorio.webp",
+      width: 900,
+      height: 1600,
+    },
+    seo: {
+      title: "Advogado Empresarial em Goiânia | Venâncio Advocacia",
+      description:
+        "Assessoria jurídica para empresas: contratos, cobranças e conflitos com fornecedores e clientes. Atendimento claro em Goiânia. Fale no WhatsApp.",
+      ogTitle: "Direito Empresarial em Goiânia | Venâncio Advocacia",
+      ogDescription:
+        "Apoio jurídico para o dia a dia da sua empresa, com linguagem clara. Goiânia e todo o Brasil.",
+    },
+    h1: "Advogado Empresarial: apoio jurídico para o dia a dia da sua empresa",
+    intro:
+      "Quem empreende sabe: um contrato mal feito, um cliente que não paga ou um conflito com fornecedor pode comprometer meses de trabalho. Muitos desses problemas podem ser evitados (ou resolvidos) com orientação jurídica adequada. Aqui, sua empresa encontra apoio para prevenir conflitos e para agir quando eles já existem, sempre em linguagem que você entende.",
+    alt: "Nathália Venâncio, advogada de Direito Empresarial em Goiânia",
+    comoAtuamosTitle: "Como a Venâncio Advocacia atua no Direito Empresarial",
+    comoAtuamos:
+      "Atuamos ao lado de empresários e pequenas e médias empresas, tanto no consultivo (prevenção, contratos, orientação nas decisões do dia a dia) quanto no contencioso (defesa e cobrança em conflitos). O objetivo é dar segurança jurídica para que você foque no seu negócio.",
+    situacoes: [
+      "Elaboração e revisão de contratos empresariais;",
+      "Contratos com fornecedores, clientes e prestadores de serviço;",
+      "Cobrança e recuperação de créditos (clientes inadimplentes);",
+      "Conflitos com fornecedores e parceiros comerciais;",
+      "Defesa da empresa em ações cíveis e de consumo;",
+      "Consultivo preventivo para o dia a dia do negócio;",
+      "Elaboração e análise de acordos e distratos;",
+      "Demais demandas empresariais.",
+    ],
+    comoFunciona:
+      "Começamos entendendo o seu negócio e a situação concreta: um contrato a fechar, um cliente inadimplente, um conflito em andamento. A partir daí, explicamos os riscos e as alternativas, do acordo extrajudicial à ação judicial, para que a decisão seja sua e bem informada.",
+    faq: [
+      {
+        question: "Minha empresa é pequena. Preciso mesmo de advogado?",
+        answer:
+          "Pequenas empresas costumam ser as mais afetadas por contratos mal feitos e inadimplência, justamente por terem menos margem para absorver prejuízos. A orientação preventiva evita boa parte desses problemas.",
+      },
+      {
+        question: "Um cliente não pagou. Como funciona a cobrança?",
+        answer:
+          "Reunimos os documentos da dívida (contrato, notas, comprovantes) e avaliamos o caminho: cobrança amigável, notificação extrajudicial, protesto ou ação judicial. A ordem dos passos depende do caso.",
+      },
+      {
+        question:
+          "Posso usar um modelo de contrato pronto da internet na minha empresa?",
+        answer:
+          "É arriscado. Modelos genéricos não refletem a realidade do seu negócio e costumam deixar lacunas justamente nos pontos que geram conflito (multa, prazos, rescisão, garantias).",
+      },
+      {
+        question: "O que é o consultivo preventivo?",
+        answer:
+          "É o acompanhamento jurídico do dia a dia da empresa: revisão de contratos antes da assinatura, orientação em negociações e adequação de práticas, para evitar que problemas virem processos.",
+      },
+      {
+        question: "Minha empresa foi processada. Qual o primeiro passo?",
+        answer:
+          "Não deixe o prazo passar. Guarde a citação e os documentos relacionados ao caso e procure orientação o quanto antes: os prazos de defesa são curtos e correm rápido.",
+      },
+      {
+        question: "Vocês atendem MEI e autônomos?",
+        answer:
+          "Sim. Atendemos desde o MEI e o profissional autônomo até pequenas e médias empresas, adaptando a orientação à realidade de cada negócio.",
+      },
+      {
+        question: "Como funciona o atendimento para empresas de outras cidades?",
+        answer:
+          "O atendimento é presencial em Goiânia e online para todo o Brasil, o que permite acompanhar empresas de qualquer região.",
+      },
+      {
+        question: "Quais documentos separar para a primeira conversa?",
+        answer:
+          "Contrato social ou CCMEI, os contratos relacionados ao problema, comprovantes, notas fiscais e registros de conversas com a outra parte.",
+      },
+    ],
+    ctaTitle: "Sua empresa está com um problema jurídico ou quer prevenir?",
+    ctaText: "Fale conosco e entenda as opções para o seu negócio.",
+  },
 ];
 
 export function getArea(slug: string): Area {

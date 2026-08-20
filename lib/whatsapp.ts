@@ -11,6 +11,10 @@ export const whatsappMessages = {
     "Olá! Vim pelo site e gostaria de falar sobre uma questão bancária (financiamento, consignado ou busca e apreensão).",
   saude:
     "Olá! Vim pelo site e gostaria de falar sobre um problema com meu plano de saúde.",
+  contratual:
+    "Olá! Vim pelo site e gostaria de falar sobre um contrato (elaboração, revisão ou descumprimento).",
+  empresarial:
+    "Olá! Vim pelo site e gostaria de falar sobre uma questão jurídica da minha empresa.",
   sobreContato:
     "Olá, Dra. Nathália! Vim pelo site e gostaria de conversar sobre o meu caso.",
 } as const;

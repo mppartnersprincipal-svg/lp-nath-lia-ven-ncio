@@ -9,12 +9,12 @@ import { PostCard } from "@/components/blog/PostCard";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Conteúdo informativo sobre Direito do Consumidor, Bancário, Cível e da Saúde, em linguagem simples. Por Nathália Venâncio de Abreu, OAB/GO 76.040.",
+    "Conteúdo informativo sobre Direito do Consumidor, Bancário, Cível, da Saúde, Contratual e Empresarial, em linguagem simples. Por Nathália Venâncio de Abreu, OAB/GO 76.040.",
   alternates: { canonical: "/blog" },
   openGraph: {
     title: "Blog | Venâncio Advocacia",
     description:
-      "Conteúdo informativo sobre Direito do Consumidor, Bancário, Cível e da Saúde, em linguagem simples.",
+      "Conteúdo informativo sobre Direito do Consumidor, Bancário, Cível, da Saúde, Contratual e Empresarial, em linguagem simples.",
     type: "website",
     url: "/blog",
     images: [{ url: "/og/og-blog.png", width: 1200, height: 630 }],
@@ -40,8 +40,8 @@ export default async function Blog({ searchParams }: PageProps<"/blog">) {
         <Breadcrumbs items={[{ label: "Blog", href: "/blog" }]} />
         <h1 className="mt-4 text-h1">Blog</h1>
         <p className="mt-4 max-w-narrow text-lead text-muted">
-          Conteúdo informativo sobre Direito do Consumidor, Bancário, Cível e
-          da Saúde, em linguagem simples.
+          Conteúdo informativo sobre Direito do Consumidor, Bancário, Cível,
+          da Saúde, Contratual e Empresarial, em linguagem simples.
         </p>
 
         {/* Filtro por área */}

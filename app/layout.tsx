@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: "%s | Venâncio Advocacia",
   },
   description:
-    "Advocacia com atendimento próximo e linguagem clara em Goiânia. Atuação em Direito do Consumidor, Bancário, Cível e da Saúde. Fale no WhatsApp.",
+    "Advocacia com atendimento próximo e linguagem clara em Goiânia. Atuação em Direito do Consumidor, Bancário, Cível, da Saúde, Contratual e Empresarial. Fale no WhatsApp.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

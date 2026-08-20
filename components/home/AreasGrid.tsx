@@ -14,7 +14,7 @@ export function AreasGrid() {
           qualquer estratégia, a gente escuta. Conheça as áreas em que o
           escritório atua:
         </p>
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {areas.map((area) => (
             <AreaCard
               key={area.slug}
